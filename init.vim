@@ -30,6 +30,8 @@ set scrolloff=10
 "let loaded_matchparen = 1
 set backupskip=/tmp/*,/private/tmp/*
 set mouse=a
+nnoremap <SPACE> <Nop>
+let mapleader=" "
 
 " incremental substitution (neovim)
 if has('nvim')

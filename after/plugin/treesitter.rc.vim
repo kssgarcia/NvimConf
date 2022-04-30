@@ -1,6 +1,6 @@
 lua <<EOF
 require('nvim-treesitter.configs').setup({
-  ensure_installed = { "python", "dart", "javascript" },
+  ensure_installed = { "python", "dart", "javascript", "html", "css" },
     highlight = {
     enable = true
     },
