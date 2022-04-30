@@ -50,6 +50,7 @@ Plug 'akinsho/bufferline.nvim'
 Plug 'liuchengxu/vim-which-key'
 Plug 'tamago324/nlsp-settings.nvim'
 Plug 'jose-elias-alvarez/null-ls.nvim'
+Plug 'glepnir/lspsaga.nvim'
 
 
 
