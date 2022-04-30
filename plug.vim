@@ -48,6 +48,9 @@ Plug 'natebosch/dartlang-snippets' " Dart snippets
 Plug 'rafamadriz/friendly-snippets'
 Plug 'akinsho/bufferline.nvim'
 Plug 'liuchengxu/vim-which-key'
+Plug 'tamago324/nlsp-settings.nvim'
+Plug 'jose-elias-alvarez/null-ls.nvim'
+
 
 
 call plug#end()
