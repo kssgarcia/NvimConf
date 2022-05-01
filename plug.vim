@@ -17,7 +17,7 @@ if has("nvim")
   Plug 'hrsh7th/cmp-buffer'
   Plug 'hrsh7th/nvim-cmp'
   Plug 'saadparwaiz1/cmp_luasnip'
-  Plug 'nvim-treesitter/nvim-treesitter', { 'do': ':TSUpdate' }
+  Plug 'nvim-treesitter/nvim-treesitter', {}
   Plug 'nvim-treesitter/playground' 
   Plug 'kyazdani42/nvim-web-devicons'
   Plug 'nvim-lua/popup.nvim'
@@ -50,8 +50,9 @@ Plug 'liuchengxu/vim-which-key'
 Plug 'tamago324/nlsp-settings.nvim'
 Plug 'jose-elias-alvarez/null-ls.nvim'
 Plug 'glepnir/lspsaga.nvim'
-
-
+Plug 'rose-pine/neovim'
+Plug 'ntk146v/vim-horizon'
+Plug 'hzchirs/vim-material'
 
 call plug#end()
 

@@ -1,11 +1,5 @@
 if !exists('g:loaded_telescope') | finish | endif
 
-nnoremap  <silent> ;ff <cmd>lua require('telescope.builtin').find_files()<cr>
-nnoremap  <silent> ;fg <cmd>lua require('telescope.builtin').live_grep()<cr>
-nnoremap  <silent> ;fb <cmd>lua require('telescope.builtin').file_browser()<cr>
-nnoremap <silent> \\ <cmd>Telescope buffers<cr>
-nnoremap <silent> ;; <cmd>Telescope help_tags<cr>
-
 lua << EOF
 local status_ok, telescope = pcall(require, "telescope")
 if not status_ok then

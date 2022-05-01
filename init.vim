@@ -27,6 +27,7 @@ set cmdheight=1
 set expandtab
 set laststatus=2 
 set scrolloff=10
+set linespace=7
 "let loaded_matchparen = 1
 set backupskip=/tmp/*,/private/tmp/*
 set mouse=a
@@ -149,6 +150,8 @@ if exists("&termguicolors") && exists("&winblend")
   colorscheme gruvbox
   hi Normal guibg=NONE ctermbg=NONE
 endif
+
+let g:indentLine_char = '┊'
 
 "}}}
 
