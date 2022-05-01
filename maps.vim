@@ -59,20 +59,14 @@ nmap <C-w><right> <C-w>>
 nmap <C-w><up> <C-w>+
 nmap <C-w><down> <C-w>-
 
-" Nerd Tree 
-nnoremap <C-f> :NERDTreeFocus<CR>
-nnoremap <C-n> :NERDTree<CR>
-nnoremap <C-t> :NERDTreeTabsToggle<CR>
-
 nmap <F8> :TagbarToggle<CR>
 
 :set completeopt-=preview " For No Previews
-
-let g:NERDTreeDirArrowExpandable=""
-let g:NERDTreeDirArrowCollapsible=""
 
 " Completation navigate
 inoremap <expr> <Tab>   pumvisible() ? "\<C-n>" : "\<Tab>"
 inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
 
+" Nvim tree
+nnoremap <C-t> :NvimTreeToggle<CR>
 

@@ -28,8 +28,7 @@ if has("nvim")
 endif
 
 Plug 'gruvbox-community/gruvbox'
-Plug 'https://github.com/preservim/nerdtree'
-Plug 'https://github.com/jistr/vim-nerdtree-tabs' 
+Plug 'kyazdani42/nvim-tree.lua'
 Plug 'https://github.com/ryanoasis/vim-devicons'
 
 Plug 'groenewege/vim-less', { 'for': 'less' }
