@@ -51,8 +51,10 @@ Plug 'tamago324/nlsp-settings.nvim'
 Plug 'jose-elias-alvarez/null-ls.nvim'
 Plug 'glepnir/lspsaga.nvim'
 Plug 'rose-pine/neovim'
-Plug 'ntk146v/vim-horizon'
 Plug 'hzchirs/vim-material'
+Plug 'pineapplegiant/spaceduck', { 'branch': 'main' }
+Plug 'embark-theme/vim', { 'as': 'embark', 'branch': 'main' }
+Plug 'sainnhe/gruvbox-material'
 
 call plug#end()
 

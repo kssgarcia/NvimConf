@@ -147,7 +147,7 @@ if exists("&termguicolors") && exists("&winblend")
   " Use NeoSolarized
   "let g:neosolarized_termtrans=1
   "runtime ./colors/NeoSolarized.vim
-  colorscheme gruvbox
+  colorscheme gruvbox-material
   hi Normal guibg=NONE ctermbg=NONE
 endif
 
