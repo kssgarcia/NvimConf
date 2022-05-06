@@ -31,6 +31,7 @@ set linespace=7
 "let loaded_matchparen = 1
 set backupskip=/tmp/*,/private/tmp/*
 set mouse=a
+set laststatus=3
 nnoremap <SPACE> <Nop>
 let mapleader=" "
 
