@@ -1,3 +1,4 @@
+
 " Fundamentals "{{{
 " ---------------------------------------------------------------------
 
@@ -145,11 +146,8 @@ if exists("&termguicolors") && exists("&winblend")
   set wildoptions=pum
   set pumblend=5
   set background=dark
-  " Use NeoSolarized
-  "let g:neosolarized_termtrans=1
-  "runtime ./colors/NeoSolarized.vim
-  colorscheme gruvbox-material
-  hi Normal guibg=NONE ctermbg=NONE
+  colorscheme kanagawa
+  "hi Normal guibg=NONE ctermbg=NONE
 endif
 
 let g:indentLine_char = '┊'
@@ -158,6 +156,7 @@ let g:indentLine_char = '┊'
 
 " Extras "{{{
 " ---------------------------------------------------------------------
+autocmd! BufNewFile,BufRead *.vs,*.fs set ft=glsl
 set exrc
 "}}}
 

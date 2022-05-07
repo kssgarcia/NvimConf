@@ -55,6 +55,9 @@ Plug 'hzchirs/vim-material'
 Plug 'pineapplegiant/spaceduck', { 'branch': 'main' }
 Plug 'embark-theme/vim', { 'as': 'embark', 'branch': 'main' }
 Plug 'sainnhe/gruvbox-material'
+Plug 'tikhomirov/vim-glsl'
+Plug 'rebelot/kanagawa.nvim'
+Plug 'Avimitin/neovim-deus'
 
 call plug#end()
 
