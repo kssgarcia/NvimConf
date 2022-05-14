@@ -27,7 +27,6 @@ if has("nvim")
   Plug 'windwp/nvim-ts-autotag'
 endif
 
-Plug 'gruvbox-community/gruvbox'
 Plug 'kyazdani42/nvim-tree.lua'
 Plug 'https://github.com/ryanoasis/vim-devicons'
 
@@ -50,6 +49,8 @@ Plug 'liuchengxu/vim-which-key'
 Plug 'tamago324/nlsp-settings.nvim'
 Plug 'jose-elias-alvarez/null-ls.nvim'
 Plug 'glepnir/lspsaga.nvim'
+
+" Themes
 Plug 'rose-pine/neovim'
 Plug 'hzchirs/vim-material'
 Plug 'pineapplegiant/spaceduck', { 'branch': 'main' }
@@ -58,6 +59,7 @@ Plug 'sainnhe/gruvbox-material'
 Plug 'tikhomirov/vim-glsl'
 Plug 'rebelot/kanagawa.nvim'
 Plug 'Avimitin/neovim-deus'
+Plug 'gruvbox-community/gruvbox'
 
 call plug#end()
 
