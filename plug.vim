@@ -45,6 +45,7 @@ Plug 'https://github.com/psliwka/vim-smoothie'
 Plug 'natebosch/dartlang-snippets' " Dart snippets
 Plug 'rafamadriz/friendly-snippets'
 Plug 'akinsho/bufferline.nvim'
+Plug 'famiu/bufdelete.nvim'
 Plug 'folke/which-key.nvim'
 Plug 'tamago324/nlsp-settings.nvim'
 Plug 'jose-elias-alvarez/null-ls.nvim'
