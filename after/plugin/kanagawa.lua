@@ -17,4 +17,3 @@ local overrides = {
 }
 
 require'kanagawa'.setup({ overrides = overrides, colors = my_colors })
-vim.cmd("colorscheme kanagawa")
