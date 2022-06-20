@@ -67,6 +67,4 @@ require'lspconfig'.cssmodules_ls.setup {
         camelCase = 'dashes',
     },
 }
-
-
 EOF
