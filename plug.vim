@@ -61,6 +61,7 @@ Plug 'https://github.com/psliwka/vim-smoothie'
 Plug 'akinsho/bufferline.nvim'
 Plug 'famiu/bufdelete.nvim'
 Plug 'folke/which-key.nvim'
+Plug 'norcalli/nvim-colorizer.lua'
 
 " Themes
 Plug 'rose-pine/neovim'
@@ -73,6 +74,7 @@ Plug 'rebelot/kanagawa.nvim'
 Plug 'Avimitin/neovim-deus'
 Plug 'gruvbox-community/gruvbox'
 Plug 'EdenEast/nightfox.nvim'
+Plug 'https://github.com/AlessandroYorba/Despacio'
 
 call plug#end()
 

@@ -146,7 +146,7 @@ if exists("&termguicolors") && exists("&winblend")
   set wildoptions=pum
   set pumblend=5
   "set background=dark
-  colorscheme duskfox
+  colorscheme nightfox
   "hi Normal guibg=NONE ctermbg=NONE
 endif
 
