@@ -77,8 +77,10 @@ set formatoptions+=r
 " Highlights "{{{
 " ---------------------------------------------------------------------
 set guicursor+=a:-Cursor-blinkwait145-blinkoff120-blinkon145
+set guicursor:i:block
 set cursorline
 "set cursorcolumn
+
 
 " Set cursor line color on visual mode
 highlight Visual cterm=NONE ctermbg=236 ctermfg=NONE guibg=Grey40
@@ -146,7 +148,7 @@ if exists("&termguicolors") && exists("&winblend")
   set wildoptions=pum
   set pumblend=5
   "set background=dark
-  colorscheme nightfox
+  colorscheme papaya
   "hi Normal guibg=NONE ctermbg=NONE
 endif
 

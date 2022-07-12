@@ -75,6 +75,7 @@ Plug 'Avimitin/neovim-deus'
 Plug 'gruvbox-community/gruvbox'
 Plug 'EdenEast/nightfox.nvim'
 Plug 'https://github.com/AlessandroYorba/Despacio'
+Plug 'https://github.com/HenryNewcomer/vim-theme-papaya'
 
 call plug#end()
 
