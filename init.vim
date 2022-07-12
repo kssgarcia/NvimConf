@@ -148,7 +148,7 @@ if exists("&termguicolors") && exists("&winblend")
   set wildoptions=pum
   set pumblend=5
   "set background=dark
-  colorscheme vim-monokai-tasty
+  colorscheme vimterial_dark
   "hi Normal guibg=NONE ctermbg=NONE
 endif
 

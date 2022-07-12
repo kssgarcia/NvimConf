@@ -75,7 +75,7 @@ Plug 'Avimitin/neovim-deus'
 Plug 'gruvbox-community/gruvbox'
 Plug 'EdenEast/nightfox.nvim'
 Plug 'https://github.com/AlessandroYorba/Despacio'
-Plug 'patstockwell/vim-monokai-tasty'
+Plug 'https://github.com/larsbs/vimterial_dark'
 
 call plug#end()
 
