@@ -77,7 +77,7 @@ set formatoptions+=r
 " Highlights "{{{
 " ---------------------------------------------------------------------
 set guicursor+=a:-Cursor-blinkwait145-blinkoff120-blinkon145
-set guicursor:i:block
+"set guicursor:i:block
 set cursorline
 "set cursorcolumn
 
@@ -148,7 +148,7 @@ if exists("&termguicolors") && exists("&winblend")
   set wildoptions=pum
   set pumblend=5
   "set background=dark
-  colorscheme vimterial_dark
+  colorscheme kanagawa
   "hi Normal guibg=NONE ctermbg=NONE
 endif
 
