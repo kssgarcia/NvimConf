@@ -148,8 +148,8 @@ if exists("&termguicolors") && exists("&winblend")
   set wildoptions=pum
   set pumblend=5
   "set background=dark
-  colorscheme kanagawa
-  "hi Normal guibg=NONE ctermbg=NONE
+  colorscheme gitub_dark_default
+  hi Normal guibg=NONE ctermbg=NONE
 endif
 
 let g:indentLine_char = '┊'

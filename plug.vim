@@ -75,6 +75,7 @@ Plug 'Avimitin/neovim-deus'
 Plug 'gruvbox-community/gruvbox'
 Plug 'EdenEast/nightfox.nvim'
 Plug 'https://github.com/AlessandroYorba/Despacio'
+Plug 'https://github.com/AlessandroYorba/Sierra'
 Plug 'https://github.com/larsbs/vimterial_dark'
 Plug 'projekt0n/github-nvim-theme'
 
