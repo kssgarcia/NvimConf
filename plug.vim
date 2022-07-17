@@ -78,6 +78,8 @@ Plug 'https://github.com/AlessandroYorba/Despacio'
 Plug 'https://github.com/AlessandroYorba/Sierra'
 Plug 'https://github.com/larsbs/vimterial_dark'
 Plug 'projekt0n/github-nvim-theme'
+Plug 'flazz/vim-colorschemes'
+" https://github.com/smolck/uivonim/blob/master/runtime/colors/veonim.vim
 
 call plug#end()
 
