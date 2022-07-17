@@ -148,7 +148,7 @@ if exists("&termguicolors") && exists("&winblend")
   set wildoptions=pum
   set pumblend=5
   "set background=dark
-  colorscheme gitub_dark_default
+  colorscheme vimterial_dark
   hi Normal guibg=NONE ctermbg=NONE
 endif
 

@@ -74,11 +74,11 @@ bufferline.setup {
   highlights = {
     fill = {
       guifg = { attribute = "fg", highlight = "#ff0000" },
-      guibg = { attribute = "bg", highlight = "TabLine" },
+      guibg = { attribute = "bg", highlight = "Black" },
     },
     background = {
-      guifg = { attribute = "fg", highlight = "TabLine" },
-      guibg = { attribute = "bg", highlight = "TabLine" },
+      guifg = { attribute = "fg", highlight = "Black" },
+      guibg = { attribute = "bg", highlight = "Black" },
     },
     --buffer_selected = {
      --guifg = {attribute='fg',highlight='#ff0000'},
@@ -86,17 +86,17 @@ bufferline.setup {
       --gui = 'none'
     --},
     buffer_visible = {
-      guifg = { attribute = "fg", highlight = "TabLine" },
-      guibg = { attribute = "bg", highlight = "TabLine" },
+      guifg = { attribute = "fg", highlight = "Black" },
+      guibg = { attribute = "bg", highlight = "Black" },
     },
 
     close_button = {
-      guifg = { attribute = "fg", highlight = "TabLine" },
-      guibg = { attribute = "bg", highlight = "TabLine" },
+      guifg = { attribute = "fg", highlight = "Black" },
+      guibg = { attribute = "bg", highlight = "Black" },
     },
     close_button_visible = {
-      guifg = { attribute = "fg", highlight = "TabLine" },
-      guibg = { attribute = "bg", highlight = "TabLine" },
+      guifg = { attribute = "fg", highlight = "Black" },
+      guibg = { attribute = "bg", highlight = "Black" },
     },
     --close_button_selected = {
       --guifg = {attribute='fg',highlight='black'},
@@ -108,8 +108,8 @@ bufferline.setup {
       guibg = { attribute = "bg", highlight = "Normal" },
     },
     tab = {
-      guifg = { attribute = "fg", highlight = "TabLine" },
-      guibg = { attribute = "bg", highlight = "TabLine" },
+      guifg = { attribute = "fg", highlight = "Black" },
+      guibg = { attribute = "bg", highlight = "Black" },
     },
     tab_close = {
       -- guifg = {attribute='fg',highlight='LspDiagnosticsDefaultError'},
@@ -123,32 +123,32 @@ bufferline.setup {
       gui = "italic",
     },
     duplicate_visible = {
-      guifg = { attribute = "fg", highlight = "TabLine" },
-      guibg = { attribute = "bg", highlight = "TabLine" },
+      guifg = { attribute = "fg", highlight = "Black" },
+      guibg = { attribute = "bg", highlight = "Black" },
       gui = "italic",
     },
     duplicate = {
-      guifg = { attribute = "fg", highlight = "TabLine" },
-      guibg = { attribute = "bg", highlight = "TabLine" },
+      guifg = { attribute = "fg", highlight = "Black" },
+      guibg = { attribute = "bg", highlight = "Black" },
       gui = "italic",
     },
 
     modified = {
-      guifg = { attribute = "fg", highlight = "TabLine" },
-      guibg = { attribute = "bg", highlight = "TabLine" },
+      guifg = { attribute = "fg", highlight = "Black" },
+      guibg = { attribute = "bg", highlight = "Black" },
     },
     modified_selected = {
       guifg = { attribute = "fg", highlight = "Normal" },
       guibg = { attribute = "bg", highlight = "Normal" },
     },
     modified_visible = {
-      guifg = { attribute = "fg", highlight = "TabLine" },
-      guibg = { attribute = "bg", highlight = "TabLine" },
+      guifg = { attribute = "fg", highlight = "Black" },
+      guibg = { attribute = "bg", highlight = "Black" },
     },
 
     separator = {
-      guifg = { attribute = "bg", highlight = "TabLine" },
-      guibg = { attribute = "bg", highlight = "TabLine" },
+      guifg = { attribute = "bg", highlight = "Black" },
+      guibg = { attribute = "bg", highlight = "Black" },
     },
     separator_selected = {
       guifg = { attribute = "bg", highlight = "Normal" },
