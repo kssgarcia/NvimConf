@@ -76,6 +76,7 @@ Plug 'gruvbox-community/gruvbox'
 Plug 'EdenEast/nightfox.nvim'
 Plug 'https://github.com/AlessandroYorba/Despacio'
 Plug 'https://github.com/larsbs/vimterial_dark'
+Plug 'projekt0n/github-nvim-theme'
 
 call plug#end()
 
