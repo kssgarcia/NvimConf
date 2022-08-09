@@ -148,7 +148,9 @@ if exists("&termguicolors") && exists("&winblend")
   set wildoptions=pum
   set pumblend=5
   "set background=dark
-  colorscheme vimterial_dark
+  let g:tokyonight_transparent_sidebar = 1
+  let g:tokyonight_transparent = 1
+  colorscheme tokyonight
   hi Normal guibg=NONE ctermbg=NONE
 endif
 
