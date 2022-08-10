@@ -162,7 +162,7 @@ let g:indentLine_char = '┊'
 " ---------------------------------------------------------------------
 autocmd! BufNewFile,BufRead *.vs,*.fs set ft=glsl
 set exrc
+nnoremap <silent> gh <Cmd>Lspsaga lsp_finder<CR>
 "}}}
 
 " vim: set foldmethod=marker foldlevel=0:
-
