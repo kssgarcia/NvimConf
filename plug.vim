@@ -73,14 +73,13 @@ Plug 'norcalli/nvim-colorizer.lua'
 "Plug 'rebelot/kanagawa.nvim'
 "Plug 'Avimitin/neovim-deus'
 "Plug 'gruvbox-community/gruvbox'
-Plug 'EdenEast/nightfox.nvim'
 "Plug 'https://github.com/AlessandroYorba/Despacio'
 "Plug 'https://github.com/AlessandroYorba/Sierra'
 "Plug 'https://github.com/larsbs/vimterial_dark'
+Plug 'EdenEast/nightfox.nvim'
 Plug 'projekt0n/github-nvim-theme'
 Plug 'flazz/vim-colorschemes'
 Plug 'folke/tokyonight.nvim'
 " https://github.com/smolck/uivonim/blob/master/runtime/colors/veonim.vim
 
 call plug#end()
-
