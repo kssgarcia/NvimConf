@@ -1,3 +1,4 @@
+
 " Fundamentals "{{{
 " ---------------------------------------------------------------------
 
@@ -27,9 +28,11 @@ set cmdheight=1
 set expandtab
 set laststatus=2 
 set scrolloff=10
+set linespace=7
 "let loaded_matchparen = 1
 set backupskip=/tmp/*,/private/tmp/*
 set mouse=a
+set laststatus=3
 nnoremap <SPACE> <Nop>
 let mapleader=" "
 
@@ -74,8 +77,10 @@ set formatoptions+=r
 " Highlights "{{{
 " ---------------------------------------------------------------------
 set guicursor+=a:-Cursor-blinkwait145-blinkoff120-blinkon145
+"set guicursor:i:block
 set cursorline
 "set cursorcolumn
+
 
 " Set cursor line color on visual mode
 highlight Visual cterm=NONE ctermbg=236 ctermfg=NONE guibg=Grey40
@@ -142,19 +147,22 @@ if exists("&termguicolors") && exists("&winblend")
   set winblend=0
   set wildoptions=pum
   set pumblend=5
-  set background=dark
-  " Use NeoSolarized
-  "let g:neosolarized_termtrans=1
-  "runtime ./colors/NeoSolarized.vim
-  colorscheme gruvbox
+  "set background=dark
+  let g:tokyonight_transparent_sidebar = 1
+  let g:tokyonight_transparent = 1
+  colorscheme tokyonight
   hi Normal guibg=NONE ctermbg=NONE
 endif
+
+let g:indentLine_char = '┊'
 
 "}}}
 
 " Extras "{{{
 " ---------------------------------------------------------------------
+autocmd! BufNewFile,BufRead *.vs,*.fs set ft=glsl
 set exrc
+nnoremap <silent> gh <Cmd>Lspsaga lsp_finder<CR>
 "}}}
 
 " vim: set foldmethod=marker foldlevel=0:
